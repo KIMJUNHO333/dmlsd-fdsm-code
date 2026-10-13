@@ -1,0 +1,18 @@
+{
+  "adapter": "dcl_simulation.adapters.duplex.minicpmo:create_model",
+  "model_path": "${MODEL_ROOT}/duplex/minicpm-o-4.5/repo",
+  "revision": "073dbbc8c5bc0af2d789e1ce12e7c17a6be746e1",
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "prefix_system_prompt": "Have a natural spoken conversation with the user in English.",
+  "reference_audio": "../../assets/audio/minicpmo_ref_af_heart.wav",
+  "max_new_speak_tokens_per_chunk": 20,
+  "decode_mode": "sampling",
+  "temperature": 0.7,
+  "top_k": 100,
+  "top_p": 0.8,
+  "listen_prob_scale": 1.0,
+  "listen_top_k": null,
+  "text_repetition_penalty": 1.05,
+  "text_repetition_window_size": 512
+}

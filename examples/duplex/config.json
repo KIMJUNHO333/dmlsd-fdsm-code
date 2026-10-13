@@ -1,0 +1,14 @@
+{
+  "adapter": "adapter:create_model",
+  "name": "my-duplex-model",
+  "revision": "checkpoint-id",
+  "model_path": "${MODEL_ROOT}/my-duplex-model",
+  "device": "cuda:0",
+  "audio": {
+    "input_sample_rate": 16000,
+    "input_chunk_samples": 1280,
+    "output_sample_rate": 24000,
+    "output_chunk_samples": 1920
+  },
+  "generation": {}
+}

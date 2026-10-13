@@ -1,0 +1,12 @@
+{
+  "adapter": "dcl_simulation.adapters.duplex.moshi:create_model",
+  "model_path": "${MODEL_ROOT}/duplex/moshiko/repo",
+  "revision": "2bfc9ae6e89079a5cc7ed2a68436010d91a3d289",
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "use_sampling": true,
+  "audio_temperature": 0.8,
+  "text_temperature": 0.7,
+  "audio_top_k": 250,
+  "text_top_k": 25
+}

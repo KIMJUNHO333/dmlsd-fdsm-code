@@ -1,0 +1,5 @@
+{
+  "model_path": "${MODEL_ROOT}/spkrec-ecapa-voxceleb/repo",
+  "revision": "0f99f2d0ebe89ac095bcc5903c4dd8f72b367286",
+  "device": "cpu"
+}

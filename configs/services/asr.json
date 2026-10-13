@@ -1,0 +1,5 @@
+{
+  "model_path": "${MODEL_ROOT}/asr/parakeet-unified-en-0.6b/repo",
+  "revision": "fe53cd885760c96b6a5f51a0bfd362cb4584a98b",
+  "device": "cuda:0"
+}

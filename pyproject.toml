@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dcl-simulation"
+version = "0.0.1"
+description = "Logical-time episode execution for full-duplex conversation simulation"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "soundfile>=0.12"]
+
+[project.optional-dependencies]
+moshi = ["moshi==0.2.13"]
+personaplex = ["moshi-personaplex @ git+https://github.com/NVIDIA/personaplex.git@3428dfd95309a7f3c84fd93259ded0f810d1ff91#subdirectory=moshi"]
+minicpmo = ["transformers==4.51.0", "accelerate", "minicpmo-utils[all]>=1.0.5", "scipy>=1.10", "torch>=2.3,<=2.8", "torchaudio<=2.8"]
+raon = ["transformers>=4.57.1,<5", "accelerate", "torch>=2.6", "torchaudio>=2.6", "speechbrain==1.1.1"]
+llm = ["httpx>=0.27,<1"]
+judge = ["httpx>=0.27,<1"]
+tts = ["kokoro==0.9.4", "scipy>=1.10"]
+vad = ["silero-vad==6.2.1", "scipy>=1.10"]
+asr = ["nemo_toolkit[asr] @ git+https://github.com/NVIDIA/NeMo.git@1c82990befeb0f44640d460b2dde75fd47fa9b2f", "scipy>=1.10"]
+ecapa = ["speechbrain==1.1.1", "scipy>=1.10"]
+models = ["huggingface-hub>=0.24"]
+speaker = ["scipy>=1.10"]
+wer = ["jiwer>=3.1,<5", "rapidfuzz>=3,<4", "whisper-normalizer>=0.1,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

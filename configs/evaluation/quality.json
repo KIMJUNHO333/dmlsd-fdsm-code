@@ -1,0 +1,9 @@
+{
+  "episodes": [
+    "../../results/model-a/episode-001",
+    "../../results/model-a/episode-002",
+    "../../results/model-b/episode-001",
+    "../../results/model-b/episode-002"
+  ],
+  "condition_id": "long_session"
+}

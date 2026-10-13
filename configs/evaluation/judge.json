@@ -1,0 +1,7 @@
+{
+  "model": "gemini-3.8-flash",
+  "temperature": 0.0,
+  "thinking_level": "low",
+  "max_output_tokens": 10000,
+  "api_key_env": "GEMINI_API_KEY"
+}

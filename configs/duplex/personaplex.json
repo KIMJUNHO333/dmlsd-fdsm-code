@@ -1,0 +1,14 @@
+{
+  "adapter": "dcl_simulation.adapters.duplex.personaplex:create_model",
+  "model_path": "${MODEL_ROOT}/duplex/personaplex-7b-v1/repo",
+  "revision": "fdaf4090a61cb315c138a1faee287ffd6c716309",
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "voice_prompt_path": "${MODEL_ROOT}/duplex/personaplex-7b-v1/voices/NATF2.pt",
+  "text_prompt": "You enjoy having a good conversation.",
+  "use_sampling": true,
+  "audio_temperature": 0.8,
+  "text_temperature": 0.7,
+  "audio_top_k": 250,
+  "text_top_k": 25
+}

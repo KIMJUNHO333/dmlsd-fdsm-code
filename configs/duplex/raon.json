@@ -1,0 +1,17 @@
+{
+  "adapter": "dcl_simulation.adapters.duplex.raon:create_model",
+  "model_path": "${MODEL_ROOT}/duplex/raon-speechchat-9b/repo",
+  "revision": "a8bac78f596839edde5fb977fa435abf52a07a2b",
+  "device": "cuda:0",
+  "dtype": "bfloat16",
+  "system_prompt": "You are engaging in real-time conversation. Have a natural spoken conversation with the user in English.",
+  "speak_first": false,
+  "do_sample": true,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "top_k": 66,
+  "sil_penalty": 0.0,
+  "bc_penalty": 0.0,
+  "eos_penalty": 0.0,
+  "max_sequence_length": 23612
+}

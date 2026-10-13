@@ -1,0 +1,6 @@
+{
+  "model_path": "${MODEL_ROOT}/tts/kokoro-82m/repo",
+  "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "voice": "am_fenrir",
+  "device": "cpu"
+}
